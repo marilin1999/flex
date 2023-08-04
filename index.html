@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI CALCULADORA </title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        border: solid black;
+        padding: 20px;
+       display: flex;
+       flex-direction: column;
+        width: 300px;
+       /* height: 300px;*/
+        gap: 10px;
+        border-radius: 15px;
+        gap: 5px; 
+        background: cornflowerblue;
+    }
+   .row{
+     display: flex;
+     gap: 8px;
+   }
+   .row div{
+    border: solid black 1px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 15px;
+   }
+   input{
+    width: 100%;
+    height: 60px;
+    border-radius: 15px;
+    background-color: aqua;
+    
+   }
+    .number{
+        background-color: aquamarine;
+        color: black;
+        font-size: 50px;
+    }
+    .live{
+        background-color: blueviolet;
+        color: black;
+        font-size: 50px;
+        
+    }
+</style>
+
+<body> 
+  
+<div class="container">
+   <div class="row">
+    <input type="text">
+   </div>
+   <div class="row">
+<div class="number">7</div>
+<div class="number">8</div>
+<div class="number">9</div>
+ <div class="live">/</div>
+   </div>
+   <div class="row">
+<div class="number">4</div>
+<div class="number">5</div>
+<div class="number">6</div>
+<div class="live">x</div>
+   </div>
+   <div class="row">
+<div class="number">3</div>
+<div class="number">2</div>
+<div class="number">1</div>
+<div class="live">-</div>
+   </div>
+   <div class="row">
+<div class="number">0</div>
+<div class="live">.</div>
+<div class="live">=</div>
+<div class="live">+</div>
+   </div>
+   
+   </div>
+</div>
+
+
+</body>
+</html>
